@@ -26,4 +26,5 @@ In order to run these notebooks and reproduce the analyses/use them for your own
 2. READ THE DOCS! (https://scanpy.readthedocs.io/en/stable/) To find what settings and functions you should apply to your data, keep up to date on the latest best practices in single cell data, and read the scanpy docs.
 ### infercnv
 1. In this folder there is a foundational notebook with some code for running infercnvpy and visualizing some of the results with infercnvpy and scanpy.
-2. Should create a virtual environment with scanpy and infercnvpy installed. Some notes on installation of infercnvpy can be found here: https://pypi.org/project/infercnvpy/
+2. Should create a virtual environment with scanpy and infercnvpy installed. Some notes on installation of infercnvpy can be found here: https://pypi.org/project/infercnvpy/, can also use the provided yaml file in "setup" folder as the basis for the new environment and execute: 
+	<conda env create -f infercnv_env.yml>
